@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+body{
+    all: unset;
+}
+
+.qwigley-regular {
+  font-family: "Qwigley", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.color-light{
+    color: rgba(255, 179, 14, 1);
+
+}
+
+.color-dark{
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.backround-colorlight{
+   background-color: rgba(255, 179, 14, 1);    
+}
+
+.backround-colordark{
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo{
+    font-size: 4rem;
+    margin: 0;
+
+}
+.location{
+    font-weight: bolder;
+}
+
+
+.btn{
+    border: 2px rgba(255, 179, 14, 1) solid ;
+    border-radius: 4px;
+    padding: 6px 24px;
+    background-color: none;
+    color: rgba(255, 179, 14, 1);
+    font-weight: bolder;
+
+}
+.grow{
+    display: flex;
+    gap: 0.75em;
+    align-items: center;
+}
+
+
+
+/* First banner */
+.container{
+    display: flex;
+    align-items: center;
+    background: rgba(253, 190, 53, 1);
+    justify-content: space-around;
+    height: 50vh;
+    padding: 2rem;
+    margin: 0;
+    border: 0;
+
+    .left-side{
+        /* padding: 5rem; */
+        width: 45vw;
+        
+
+    }
+}
+
+.box{
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-img{
+    width: 40vw;
+    height: 40vh;
+    
+}
+
+.brand-text{
+    font-size: 4rem;
+    margin: 0;
+    color: white;
+}
+
+.option{
+    display: flex;
+    width: 30vw;
+    background-color: white;
+    padding: 0.75em;
+    gap: 2px;
+
+    .Delivery{
+
+        display: flex;
+        align-items: center;
+        padding: 6px 22px;
+        border: 0;
+        font-weight: bold;
+        font-size: 10px;
+        background: rgba(241, 114, 40, 0.1);
+        color : rgba(241, 114, 40, 1);
+
+;
+    }
+    .pickup{
+        padding: 6px 30px;
+        border: 0;
+        font-weight: bolder;
+        font-size: 10px;
+        color:rgba(117, 117, 117, 1);
+;
+    }
+
+}
+.menu-option{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    background-color: white;
+    padding: 0.75em;
+    gap: 5px;
+
+    .text{
+        width: 85%;
+        padding: 4px;
+        border: 0;
+        background: rgba(245, 245, 245, 1);
+        color : rgba(158, 158, 158, 1);
+;
+
+    }
+    .FindFood{
+        padding: 10px 20px;
+        width: 25%;
+        font-weight: bolder;
+        font-size: 10px;
+        border-radius: 4px;
+        background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+        color: white;
+
+    }
+}
+
+
+
+
+/* container-2 */
+
+
+
+.container-2{
+    display: flex;
+    padding:6rem;
+    justify-content: center;
+    gap: 1rem;
+    
+    
+}
+
+.card{
+    width: 18vw;
+
+    img{
+        width: 100%;
+    }
+}
+
+h2{
+    font-weight: bold;
+
+}
+
+.min{
+    background-color:rgba(241, 114, 40, 0.2);
+    color: rgba(241, 114, 40, 1);
+    font-weight: 700;
+    padding: 7px 18px;
+    border-radius: 5px;
+
+}
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.title-3{
+    text-align: center;
+    color: rgba(241, 114, 40, 1);
+
+}
+
+.box3{
+    display: flex;
+    flex-flow: nowrap;
+    gap: 1rem;
+    margin: 3rem 0;
+    box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.1);
+    padding: 2rem 4rem;
+    
+
+    hr{
+        margin: 2rem;
+    }
+
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.deal-title{
+    background: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    background-clip: text;
+    color: transparent;
+
+
+}
+
+.deal-img{
+    height: 75%;
+    
+}
